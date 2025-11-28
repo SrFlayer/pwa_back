@@ -99,7 +99,7 @@ const Dashboard = ({ user, onLogout }) => {
     try {
       await notificationService.sendTestNotification(
         user.id, 
-        '¡Hola! 👋', 
+        '¡Hola!', 
         `¡Hola ${user.name}! Esta es una notificación de prueba desde tu PWA.`
       );
       alert('¡Notificación enviada! Revisa tu bandeja de notificaciones.');
@@ -126,7 +126,7 @@ const Dashboard = ({ user, onLogout }) => {
       setNotifTitle('');
       setNotifBody('');
     } catch (error) {
-      alert('❌ Error enviando notificación: ' + error.message);
+      alert(' Error enviando notificación: ' + error.message);
     }
   };
 

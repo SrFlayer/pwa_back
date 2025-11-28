@@ -5,15 +5,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: 'localhost',
-    port: 5173,
+    port: 3000,
     hmr: {
       protocol: 'ws',  // fuerza WebSocket
       host: 'localhost',
       port: 5173,
     },
-  },
-  preview: {
-    host: true,
-    port: 3000,
   },
 });

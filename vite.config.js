@@ -14,5 +14,9 @@ export default defineConfig({
   },
   preview: {
     port: 3000,
+    host: true,
+    allowedHosts:[
+      "pwa-back-2.onrender.com"
+    ]
   },
 });

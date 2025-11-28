@@ -1,7 +1,7 @@
 const CACHE_NAME = 'chupirul-pwa-v3';
 const API_BASE_URL = 
 //'http://localhost:3000/api'
-'https://pwa-end.onrender.com/api'
+'https://backend-4jns.onrender.com/api'
 ;
 
 self.addEventListener('install', event => {
